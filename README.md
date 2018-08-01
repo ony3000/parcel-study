@@ -1,2 +1,2 @@
-# testing
-commit and push test in windows pc
+# parcel-study
+Personal study for comparing webpack and parcel.
