@@ -4,6 +4,9 @@
   "description": "Personal study for comparing webpack and parcel.",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
+    "watch": "parcel watch index.html",
+    "build": "parcel build index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
