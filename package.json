@@ -1,0 +1,19 @@
+{
+  "name": "parcel-study",
+  "version": "1.0.0",
+  "description": "Personal study for comparing webpack and parcel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ony3000/parcel-study.git"
+  },
+  "author": "Hyeonjong <nianelo4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ony3000/parcel-study/issues"
+  },
+  "homepage": "https://github.com/ony3000/parcel-study#readme"
+}
