@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import './style.scss';
 
 function component() {
   var element = document.createElement('div');
@@ -9,6 +10,7 @@ function component() {
     'to studying',
     'parcel bundler!',
   ], ' ');
+  element.classList.add('hello');
 
   return element;
 }

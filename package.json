@@ -21,5 +21,8 @@
   "homepage": "https://github.com/ony3000/parcel-study#readme",
   "dependencies": {
     "parcel-bundler": "^1.9.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
   }
 }
