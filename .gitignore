@@ -78,6 +78,9 @@ typings/
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
+# parcel-bundler dev-server
+dist/
+
 # next.js build output
 .next
 
