@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import '@mdi/font/scss/materialdesignicons.scss';
 import Profile from './assets/profile.png';
 import './assets/style.scss';
 
