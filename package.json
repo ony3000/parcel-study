@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ony3000/parcel-study#readme",
   "dependencies": {
+    "@mdi/font": "^2.5.94",
     "bulma": "^0.7.1",
     "parcel-bundler": "^1.9.7"
   },
