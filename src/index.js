@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import Profile from './profile.png';
-import './style.scss';
+import Profile from './assets/profile.png';
+import './assets/style.scss';
 
 function component() {
   var element = document.createElement('span');
