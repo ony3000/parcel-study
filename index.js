@@ -1,8 +1,9 @@
 import _ from 'lodash';
+import Profile from './profile.png';
 import './style.scss';
 
 function component() {
-  var element = document.createElement('div');
+  var element = document.createElement('span');
 
   element.innerHTML = _.join([
     'This is',
@@ -11,6 +12,11 @@ function component() {
     'parcel bundler!',
   ], ' ');
   element.classList.add('hello');
+
+  var myProfile = new Image();
+
+  myProfile.src = Profile;
+  element.appendChild(myProfile);
 
   return element;
 }
