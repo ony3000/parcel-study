@@ -1,3 +1,4 @@
+import Vue from 'vue/dist/vue.esm';
 import _ from 'lodash';
 import '@mdi/font/scss/materialdesignicons.scss';
 import Profile from './assets/profile.png';
@@ -23,3 +24,7 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+const viewModel = new Vue({
+    el: '#app',
+});

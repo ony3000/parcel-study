@@ -22,7 +22,8 @@
   "dependencies": {
     "@mdi/font": "^2.5.94",
     "bulma": "^0.7.1",
-    "parcel-bundler": "^1.9.7"
+    "parcel-bundler": "^1.9.7",
+    "vue": "^2.5.17"
   },
   "devDependencies": {
     "node-sass": "^4.9.2"
