@@ -1,6 +1,7 @@
-import Vue from 'vue/dist/vue.esm';
+import Vue from 'vue/dist/vue.runtime.esm';
 import _ from 'lodash';
 import '@mdi/font/scss/materialdesignicons.scss';
+import App from './components/App.vue';
 import Profile from './assets/profile.png';
 import './assets/style.scss';
 
@@ -27,4 +28,7 @@ document.body.appendChild(component());
 
 const viewModel = new Vue({
     el: '#app',
+    render(h) {
+        return h(App);
+    },
 });
