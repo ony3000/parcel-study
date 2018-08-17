@@ -20,15 +20,15 @@
   },
   "homepage": "https://github.com/ony3000/parcel-study#readme",
   "dependencies": {
-    "@mdi/font": "^2.5.94",
+    "@mdi/font": "^2.6.95",
     "bulma": "^0.7.1",
     "parcel-bundler": "^1.9.7",
     "vue": "^2.5.17",
     "vue-hot-reload-api": "^2.3.0"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.1.0",
-    "node-sass": "^4.9.2",
+    "@vue/component-compiler-utils": "^2.2.0",
+    "node-sass": "^4.9.3",
     "vue-template-compiler": "^2.5.17"
   }
 }
