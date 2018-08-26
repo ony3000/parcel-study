@@ -5,8 +5,6 @@ const entryFiles = [
 const options = {
   outFile: 'index.js',
   publicUrl: './dist/',
-  watch: false,
-  minify: true,
   scopeHoist: false,
   https: false,
   logLevel: 3,
