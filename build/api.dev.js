@@ -1,15 +1,13 @@
 const { exec } = require('child_process');
 const Bundler = require('parcel-bundler');
+const baseOptions = require('./options.base');
 const entryFiles = [
   './src/index.js'
 ];
 const options = {
+  ...baseOptions,
   outFile: 'index.js',
   publicUrl: './dist/',
-  scopeHoist: false,
-  https: false,
-  logLevel: 3,
-  hmr: false,
   sourceMaps: true
 };
 
